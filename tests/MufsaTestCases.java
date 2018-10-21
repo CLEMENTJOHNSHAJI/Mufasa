@@ -81,6 +81,7 @@ public class MufsaTestCases {
 		assertFalse(value);
 	}
 	
+	
 //	User is able to select his country from the already provided list of countries	
 	@Test
 	public void verifyingCountryList()

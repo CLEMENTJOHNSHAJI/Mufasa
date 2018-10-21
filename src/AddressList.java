@@ -59,7 +59,6 @@ public class AddressList {
 		return this.country;
 		
 	}
-	
 	private boolean allowedCharacters(String allowed, String testSample)
 	{
 		testSample = testSample.toLowerCase();

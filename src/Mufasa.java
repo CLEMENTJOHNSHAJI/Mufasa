@@ -9,7 +9,6 @@ public class Mufasa {
 	private String cardHolder;
 	private String cardType;
 
-
 	public AddressList getAddress()
 	{
 		return this.address;

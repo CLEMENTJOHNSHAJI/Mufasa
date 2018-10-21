@@ -107,7 +107,6 @@ public class PersonsList {
 		this.pw=pw1;
 		return(true);
 	}
-
 	public String getPassword()
 	{
 		return(this.pw);
