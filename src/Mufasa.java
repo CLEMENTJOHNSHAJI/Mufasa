@@ -33,7 +33,7 @@ public class Mufasa {
 		boolean response = usersBank.refund();
 		return(response);
 	}
-	public boolean attach(String cvc, BankingFunctionalities usersBank)
+	public boolean bankAttachment(String cvc, BankingFunctionalities usersBank)
 	{
 		if(cvc.length() != 3)
 			return(false);

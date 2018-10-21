@@ -369,9 +369,9 @@ public class MufsaTestCases {
 		BankingFunctionalities bankUser1 = EasyMock.createMock(BankingFunctionalities.class);
 		EasyMock.expect(bankUser1.deduct(0.01,cvc)).andReturn(true);
 		EasyMock.replay(bankUser1);
-		boolean reply = account.attach(cvc, bankUser1);
+		boolean reply = account.bankAttachment(cvc, bankUser1);
 		assertTrue(reply);
-	}
+	} 
 	@Test
 	public void verifyBankAttachmentConfirmationWithInalidCVC()
 	{
@@ -382,7 +382,7 @@ public class MufsaTestCases {
 		BankingFunctionalities bankUser1 = EasyMock.createMock(BankingFunctionalities.class);
 		EasyMock.expect(bankUser1.deduct(0.01,cvc)).andReturn(false);
 		EasyMock.replay(bankUser1);
-		boolean reply = account.attach(cvc, bankUser1);
+		boolean reply = account.bankAttachment(cvc, bankUser1);
 		assertFalse(reply);
 	}
 	@Test
@@ -395,7 +395,7 @@ public class MufsaTestCases {
 		BankingFunctionalities bankUser1 = EasyMock.createMock(BankingFunctionalities.class);
 		EasyMock.expect(bankUser1.deduct(0.01,cvc)).andReturn(false);
 		EasyMock.replay(bankUser1);
-		boolean reply = account.attach(cvc, bankUser1);
+		boolean reply = account.bankAttachment(cvc, bankUser1);
 		assertFalse(reply);
 	}
 	@Test
