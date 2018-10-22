@@ -6,7 +6,7 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/cglib-3.2.8.jar"/>
 	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/objenesis-2.5.jar"/>
-	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/easymock-3.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/Downloads/easymock-3.2.jar" sourcepath="easymock/easymock-3.2.jar"/>
 	<classpathentry kind="lib" path="C:/Users/LENOVO/git/Mufasa/easymock/easymock-3.6.jar"/>
 	<classpathentry kind="lib" path="C:/Users/LENOVO/git/Mufasa/easymock/easymock-3.6-javadoc.jar"/>
 	<classpathentry kind="lib" path="C:/Users/LENOVO/git/Mufasa/easymock/easymock-3.6-samples.jar"/>
@@ -14,5 +14,11 @@
 	<classpathentry kind="lib" path="C:/Users/LENOVO/git/Mufasa/easymock/easymock-3.6-tests.jar"/>
 	<classpathentry kind="lib" path="C:/Users/LENOVO/git/Mufasa/easymock/original-easymock-3.6.jar"/>
 	<classpathentry kind="lib" path="C:/Users/LENOVO/git/Mufasa/easymock/original-easymock-3.6-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/git/Mufasa/easymock/cglib-3.2.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/git/Mufasa/easymock/easymock-3.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LENOVO/git/Mufasa/easymock/objenesis-2.5.jar"/>
+	<classpathentry kind="lib" path="easymock/cglib-3.2.8.jar" sourcepath="easymock/cglib-3.2.8.jar"/>
+	<classpathentry kind="lib" path="easymock/easymock-3.2.jar"/>
+	<classpathentry kind="lib" path="easymock/objenesis-2.5.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

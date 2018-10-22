@@ -347,7 +347,7 @@ public class MufsaTestCases {
 	{
 		PersonsList user1 = new PersonsList();
 		Mufasa account = new Mufasa(user1);
-		String strTemp = "VISA";
+		String strTemp = "Mastercard";
 		boolean reply = account.setCardType(strTemp);
 		assertTrue(reply);
 	}
@@ -356,7 +356,7 @@ public class MufsaTestCases {
 	{
 		PersonsList user1 = new PersonsList();
 		Mufasa account = new Mufasa(user1);
-		String strTemp = "VISATYPE";
+		String strTemp = "VISAMastercard";
 		boolean reply = account.setCardType(strTemp);
 		assertFalse(reply);
 	}
